@@ -57,6 +57,7 @@ function sonIguales(x, y) {
   // Devuelve "true" si "x" e "y" son iguales
   // De lo contrario, devuelve "false"
   // Tu código:
+  
   if (x===y){
     return true;
   }
@@ -76,6 +77,8 @@ function menosQueNoventa(num) {
   // Devuelve "true" si el argumento de la función "num" es menor que noventa
   // De lo contrario, devuelve "false"
   // Tu código:
+  //return num<90; esto tambien es valido
+
   if (num<90){
     return true;
   }
@@ -106,6 +109,7 @@ function esPar(num) {
   // Devuelve "true" si "num" es par
   // De lo contrario, devuelve "false"
   // Tu código:
+  //return num % 2 === 0;
   if (num % 2 === 0)
   {
     return true;
