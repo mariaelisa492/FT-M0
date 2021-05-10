@@ -14,6 +14,10 @@ function obtenerMayor(x, y) {
   else {
     return x;
   }
+  //una forma mas corta
+  //if (x===y)return x;
+  //else if (x>y)return x;
+  //else return y; 
 }
 
 function mayoriaDeEdad(edad) {
@@ -52,7 +56,7 @@ function saludo(idioma) {
   // Si "idioma" es "ingles", devuelve "Hello!"
   // Si "idioma" no es ninguno de los anteiores o es `undefined` devuelve "Hola!"
   // Tu código:
-  var resultIdioma = " ";
+  var resultIdioma = " "; // para no poner esta variable, podia solo poner return en lugar del break
   switch (idioma) {
     case "aleman":
     resultIdioma = "Guten Tag!";
@@ -79,25 +83,24 @@ function colors(color) {
   //En caso que el color recibido sea "orange", devuleve --> "This is orange"
   //Caso default: devuelve --> "Color not found"
   //Usar el statement Switch.
-  let resultColor = " ";
+ 
   switch (color) {
     case "blue":
-      resultColor = "This is blue";
-      break;
+     return "This is blue";
+     
     case "red":
-      resultColor = "This is red";
-      break;
+    return"This is red";
+    
     case "green":
-        resultColor = "This is green";
-        break;
+       return"This is green";
+
     case "orange":
-          resultColor = "This is orange";
-          break;
+         return "This is orange";
+      
     default:
-      resultColor = "Color not found";
-      break;
+      return"Color not found";
+    
   }
-  return resultColor;
 }
 
 function esDiezOCinco(numero) {
@@ -110,6 +113,7 @@ function esDiezOCinco(numero) {
   else {
     return false;
   }
+  //return (numero===10 || numero===5) tambien sirve esto
 }
 
 
@@ -122,6 +126,7 @@ function estaEnRango(numero) {
   }else{
     return false;
   } 
+  //return(numero<50 && numero>20) tambien puede ser una sola línea
 }
 
 function esEntero(numero) {
@@ -138,6 +143,9 @@ function esEntero(numero) {
   else{
     return false;
   }
+  //return(numero===Math.floor(numero)) esta es una opción
+  //if (numero-Math.floor(numero)===0)return true;
+  //else return false;
 }
 
 function fizzBuzz(numero) {
