@@ -1,0 +1,18 @@
+
+
+* Variables: se pueden asimilar con cajitas en donde se guardan datos temporalmente. Los datos guardados en estas cajitas, luego pueden ser consultados. Existen diferentes tipos de datos
+que pueden ser almacenados. Pueden ser numero (entero como el 1, 100 etc); (palabras o frases que deben escribirse entre comillas como "casa", "Maria", "Colombia", etc); (boleanos que hacen
+referencia a verdadero o falso y deben ser escrito en ingles true o false) y estan los datos (Undefined que hace referencia a que el valor no ha sido definido o no existe). Todas las Variables
+deben ser definidas con la palabra resevada let, var o const y un nombre que las identifique.
+
+* Strings: estos son caracteres o letras, que pueden conformar un palabras o una frase. Siempre deben delimitarse por comillas dobles "" o sencillas ' '.
+
+* Funciones (argumentos, `return`):las funciones por su parte, tienen la capacidad de recibir datos, hacer algo con ellos y devolver valores a traves del return. Las funciones reciben lo que
+se conoce como parametros. Las funciones deben utilizar la palabra reservada function y un nombre que la identifique. Por ejemplo function saludar ().
+
+* Declaraciones `if`: es denominado condicionesl, porque permite ejecutar unas instrucciones u otras dependiendo de lo que tenga como condiciones. Su estructura es if(condiciones) {bloque de codigo;}
+
+* Valores booleanos (`true`, `false`): A menudo, necesitarás un valor que simplemente distinga entre dos posibilidades, como "sí" y "no" o "encendido" y "apagado". Para esto, JavaScript tiene un 
+tipo de dato boolean, que tiene solo dos valores: true (verdadero) y false (falso). Hay también algunas operaciones que pueden ser aplicadas a los valores Booleans. JavaScript soporta tres operadores lógicos: and, or y not. Estos pueden ser usados para "razonar" con los Booleans.
+El operador && representa la operación lógica and ("y"). Es un operador binario, y su resultado es true (verdadero) sólo si los dos valores dados son verdaderos. El operador || denota la operación lógica or ("o"). Devuelve verdadero si cualquiera de los dos valores dados es verdadero.
+Not (Negación) es escrito como un símbolo de admiración !. Es un operador binario que voltea el valor que se le de; !true produce false y !false produce true. 
